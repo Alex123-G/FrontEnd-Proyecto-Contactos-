@@ -1,0 +1,38 @@
+/*! Provicional  */
+.btns {
+	font-family: Arial;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
+
+.btns:nth-child(1) {
+	background-color: #5577ce;
+}
+.btns:nth-child(2) {
+	background-color: #eb2a2a;
+}
+
+.container_button {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+.container_button button {
+	margin: 5px;
+}
+
+/* *Con esta Clase lo que hacemos es que si nuestra ventana tiene un cursor  se van aplicar estos estilos en este caso el de Hover ya que en moviles la clase hover funcion mal; Y para ver ese efecto en Moviles lo que haremos es usar la  pseudoclase :active , esta pseudoclase se apolica cuando nosotro mantenemos presionado el boton ,es decir si mantenemos presionado por 1s el boton se van a cambiar los efectos */
+@media (hover: hover) {
+	.btns:hover {
+		opacity: 0.7;
+	}
+}
+
+.btns::selection {
+	opacity: 0.7;
+}
