@@ -8,8 +8,6 @@ ReactDOM.render(
 	<BrowserRouter>
 		<Routes>
 			<Route path="/FrontEnd-Proyecto-Contactos-/" element={<App />} />
-			{/* <Route path="/actualizar/:id" element={<Actualizar />} /> */}
-			{/* <Route path="/agregar" element={<Insertar />} /> */}
 		</Routes>
 	</BrowserRouter>,
 	document.getElementById("root")

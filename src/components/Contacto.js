@@ -19,9 +19,6 @@ function Contacto({ state, showEdit, setRefrescar, refrescar }) {
 			</div>
 
 			<div className="container_button">
-				{/* <a className="btns" href={`actualizar/${state.id_contactos}`}>
-					Actualizar
-				</a> */}
 				<button
 					className="btns"
 					onClick={() => {

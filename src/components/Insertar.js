@@ -18,7 +18,6 @@ const Insertar = ({ setMostrarInsertar }) => {
 		setMostrarInsertar(false);
 	};
 
-	// console.log(datos_formulario);
 	return (
 		<div className="container_form_add">
 			<h2>Agregar Contacto</h2>
