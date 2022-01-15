@@ -1,18 +1,30 @@
-/*! Provicional  */
 .btns {
 	font-family: Arial;
-	padding: 10px 20px;
-	border-radius: 5px;
-	color: white;
-	cursor: pointer;
+	padding: 7px 15px;
 	border: none;
+	border-radius: 8px;
+	color: white;
+	font-weight: 400;
+	cursor: pointer;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: flex-end;
+	column-gap: 10px;
+}
+
+.btns img {
+	width: 2rem;
+	height: 2rem;
 }
 
 .btns:nth-child(1) {
-	background-color: #5577ce;
+	background-color: #3e2dd3;
 }
 .btns:nth-child(2) {
-	background-color: #eb2a2a;
+	background-color: #d92929;
 }
 
 .container_button {
