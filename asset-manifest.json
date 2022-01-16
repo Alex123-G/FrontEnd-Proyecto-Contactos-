@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FrontEnd-Proyecto-Contactos-/static/css/main.1f3c51ce.chunk.css",
-    "main.js": "/FrontEnd-Proyecto-Contactos-/static/js/main.fa7fd179.chunk.js",
-    "main.js.map": "/FrontEnd-Proyecto-Contactos-/static/js/main.fa7fd179.chunk.js.map",
+    "main.js": "/FrontEnd-Proyecto-Contactos-/static/js/main.dbaf4506.chunk.js",
+    "main.js.map": "/FrontEnd-Proyecto-Contactos-/static/js/main.dbaf4506.chunk.js.map",
     "runtime-main.js": "/FrontEnd-Proyecto-Contactos-/static/js/runtime-main.fc106095.js",
     "runtime-main.js.map": "/FrontEnd-Proyecto-Contactos-/static/js/runtime-main.fc106095.js.map",
     "static/css/2.58a45539.chunk.css": "/FrontEnd-Proyecto-Contactos-/static/css/2.58a45539.chunk.css",
@@ -12,13 +12,13 @@
     "static/css/2.58a45539.chunk.css.map": "/FrontEnd-Proyecto-Contactos-/static/css/2.58a45539.chunk.css.map",
     "static/css/main.1f3c51ce.chunk.css.map": "/FrontEnd-Proyecto-Contactos-/static/css/main.1f3c51ce.chunk.css.map",
     "static/js/2.fb519e45.chunk.js.LICENSE.txt": "/FrontEnd-Proyecto-Contactos-/static/js/2.fb519e45.chunk.js.LICENSE.txt",
-    "static/js/main.fa7fd179.chunk.js.LICENSE.txt": "/FrontEnd-Proyecto-Contactos-/static/js/main.fa7fd179.chunk.js.LICENSE.txt"
+    "static/js/main.dbaf4506.chunk.js.LICENSE.txt": "/FrontEnd-Proyecto-Contactos-/static/js/main.dbaf4506.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fc106095.js",
     "static/css/2.58a45539.chunk.css",
     "static/js/2.fb519e45.chunk.js",
     "static/css/main.1f3c51ce.chunk.css",
-    "static/js/main.fa7fd179.chunk.js"
+    "static/js/main.dbaf4506.chunk.js"
   ]
 }
