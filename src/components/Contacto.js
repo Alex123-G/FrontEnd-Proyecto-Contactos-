@@ -6,8 +6,14 @@ import contact from "../imgs/contact.png";
 import { borrarContacto } from "../functions/function";
 import { useAuth0 } from "@auth0/auth0-react";
 
-function Contacto({ state, showEdit, id, setState, setCargando }) {
+function Contacto({ state, id, setState, setCargando, setMostrarActualizar, setContactoEditar }) {
 	const { user } = useAuth0();
+
+	const showEditForm = (id, nombre, numero, photo) => {
+		setMostrarActualizar(true);
+		setContactoEditar({ id, nombre, numero, photo });
+	};
+
 	const borrar = () => {
 		borrarContacto(state.id_contactos, setState, setCargando);
 	};
@@ -34,9 +40,9 @@ function Contacto({ state, showEdit, id, setState, setCargando }) {
 					className="btns"
 					onClick={() => {
 						if (user) {
-							showEdit(state.id_contactos, state.nombre_contacto, state.numero_contacto, state.photo);
+							showEditForm(state.id_contactos, state.nombre_contacto, state.numero_contacto, state.photo);
 						} else {
-							showEdit(state.id_contactos, state.nombre_contacto, state.numero_contacto);
+							showEditForm(state.id_contactos, state.nombre_contacto, state.numero_contacto);
 							//!Eliminar el showEdit si no ha iniciado sesion=> messageErrorSession();
 						}
 					}}

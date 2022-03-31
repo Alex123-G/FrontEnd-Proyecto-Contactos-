@@ -1,0 +1,3 @@
+//! El tipo de tamaño que maneja son de bytes que son menor a 1 Kilobyte o kilobytes.
+
+//! Eliminar setMostrarInsertar porque o sino van a poder agregar contactos sin inicar sesion.

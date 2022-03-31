@@ -28,11 +28,11 @@ export const insertaNuevoContacto = (nombre, numero, data_photos, setCargando, s
 	form_data.append("numero", numero);
 	form_data.append("image", data_photos);
 	// Colocamos que este en true  y antes del axios ke decimos que nos ponga en false que es cuando nos va mostrar el de agregando; y en el then que es despues del llamada y el cumplimiento de la api, vamos a cambiarle el estado a true que es para que desapresca
-	setCargando(false);
+	setCargando(true);
 	axios
 		.post(`https://backend-proyecto-contactos.herokuapp.com/insertar`, form_data)
 		.then(function (response) {
-			setCargando(true);
+			setCargando(false);
 			state(response.data);
 			// console.log(response.data);
 		})
@@ -58,11 +58,11 @@ export const actualizarContacto = (id, nombre, numero, data_photos, setCargando)
 	//* console.log(pair[0] + ", " + pair[1]);
 	//* }
 
-	setCargando(false);
+	setCargando(true);
 	axios
 		.put(`https://backend-proyecto-contactos.herokuapp.com/actualizar/${id}`, form_data)
 		.then(function (response) {
-			setCargando(true);
+			setCargando(false);
 			window.location.href = "https://alex123-g.github.io/FrontEnd-Proyecto-Contactos-";
 		})
 		.catch(function (error) {
@@ -72,13 +72,13 @@ export const actualizarContacto = (id, nombre, numero, data_photos, setCargando)
 };
 
 export const borrarContacto = (id, setState, setCargando) => {
-	setCargando(false);
+	setCargando(true);
 
 	axios
 		.delete(`https://backend-proyecto-contactos.herokuapp.com/borrar/${id}`)
 		.then(function (response) {
 			setState(response.data);
-			setCargando(true);
+			setCargando(false);
 		})
 		.catch(function (error) {
 			console.log(error);

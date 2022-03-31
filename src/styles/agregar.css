@@ -42,12 +42,11 @@
 	width: 2rem;
 	opacity: 1;
 	cursor: pointer;
-}
-
-.exit_btn img:hover {
-	width: 2.05rem;
-	opacity: 0.9;
 	transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+.exit_btn img:hover {
+	width: 2.06rem;
+	opacity: 0.8;
 }
 
 .form_add {

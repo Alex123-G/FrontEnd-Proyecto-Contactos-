@@ -5,9 +5,6 @@
 	"private": true,
 	"dependencies": {
 		"@auth0/auth0-react": "^1.8.0",
-		"@testing-library/jest-dom": "^5.15.1",
-		"@testing-library/react": "^11.2.7",
-		"@testing-library/user-event": "^12.8.3",
 		"axios": "^0.24.0",
 		"dotenv": "^10.0.0",
 		"react": "^17.0.2",
@@ -18,7 +15,9 @@
 		"toastify-simply-react": "^1.2.4",
 		"web-vitals": "^1.1.2"
 	},
-	"scripts": {
+	"scripts": { 
+
+		
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"predeploy": "npm run build",
